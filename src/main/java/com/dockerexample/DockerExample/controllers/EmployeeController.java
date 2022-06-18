@@ -8,6 +8,6 @@ public class EmployeeController {
 
     @GetMapping("/")
     public String hello(){
-        return "<h1> This is my first docker microservice </h1>";
+        return "<h1> This is my first docker service </h1>";
     }
 }
